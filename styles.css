@@ -87,26 +87,31 @@ body{
 
 main{
   display: grid;
-  padding: 1.25rem;
+  padding: 2rem;
   gap: 1rem;
+
 }
 
 .card{
     border-radius: 15px;
-    padding: 1rem;
-    
+    padding: 2.5rem;    
+}
+
+h1{
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
 
 article p{
-  font-size: 1.25rem;
-  font-weight: 600;
-  
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: hsl(0, 0%, 70%);
 }
 
 .person{
   display: flex;
-  gap: 1rem;
+  gap: .5rem;
   align-items: center;
  
 }
@@ -123,15 +128,11 @@ article p{
 }
 
 .person span{
-  color: hsl(0, 0%, 50%);
+  color: hsl(0, 0%, 60%);
   font-size: 0.8125rem;
 }
 
-article p span{
-  font-size: 0.8125rem;
-  font-weight: 500;
-  color: hsl(0, 0%, 70%);
-}
+
 
 .card-1{
  background-color: hsl(263, 55%, 52%);
